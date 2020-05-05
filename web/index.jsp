@@ -11,9 +11,9 @@
 <html>
     <body>
         <h1>Hello World!</h1>
-    <%  
-    Connection con; 
-    con = ConectaBanco.MetodoConexao();    
-    %>  
+
+        <a href="pais/cadpais.jsp">Cadastrar país</a>
+         
+        
     </body>
 </html>
