@@ -17,10 +17,17 @@ import java.util.logging.Logger;
  */
 public class ConectaBanco {
     
-     private static String caminho = "jdbc:postgresql://motty.db.elephantsql.com:5432/cslumibd";
-     private static String usuario = "cslumibd";
-     private static String senha = "c1MYncSfuZXFcyvOgfbXRv8JW5FI5Kyf";
-     private static Connection con;
+ /*
+      private static String caminho = "jdbc:postgresql://motty.db.elephantsql.com/cslumibd";    
+      private static String usuario = "cslumibd";
+      private static String senha = "c1MYncSfuZXFcyvOgfbXRv8JW5FI5Kyf";
+      private static Connection con;
+   */ 
+      private static String caminho = "jdbc:postgresql://localhost:5432/trabalho";    
+      private static String usuario = "postgres";
+      private static String senha = "123456";
+      private static Connection con;
+    
      
     public static Connection MetodoConexao()
     {
