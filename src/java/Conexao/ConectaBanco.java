@@ -23,7 +23,7 @@ public class ConectaBanco {
       private static String senha = "c1MYncSfuZXFcyvOgfbXRv8JW5FI5Kyf";
       private static Connection con;
    */ 
-      private static String caminho = "jdbc:postgresql://localhost:5432/trabalho";    
+      private static String caminho = "jdbc:postgresql://localhost:5432/vendas";    
       private static String usuario = "postgres";
       private static String senha = "123456";
       private static Connection con;
