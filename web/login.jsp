@@ -14,7 +14,7 @@
     <body>
         <h1>Login</h1>
         <p>
-        <form name="f" method="POST" action="alogin.jsp">
+        <form name="f" method="GET" action="alogin.jsp">
             Login: <input type="text" name="login" /> <br>
             Senha: <input type="text" name="senha" /> <br>
             <input type="submit" value="Enviar" />
