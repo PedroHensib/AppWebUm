@@ -35,7 +35,8 @@
     out.println(lista.get(i).getPreco());
     out.print(" Estoque:");
     out.println(lista.get(i).getEstoque());    
-    out.print("<input type='submit' value='Comprar'");
+    out.print("<input name='id_produto' type='hidden' value='"+lista.get(i).getId_produto()+"' />");
+    out.print("<input type='submit' value='Comprar' />");    
     out.print("</form>");
     out.println("<br>");
     }
